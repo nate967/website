@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Qualified Meetings with Interested Buyers</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif;
+    background: #fafafa;
+    color: #1a1a1a;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 24px 120px;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin-bottom: 18px;
+    color: #333;
+  }
+
+  .lead {
+    font-size: 1.15rem;
+    color: #444;
+    margin-bottom: 12px;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+
+  ul li {
+    padding: 8px 0 8px 24px;
+    position: relative;
+    color: #333;
+  }
+
+  ul.negatives li::before {
+    content: "✗";
+    position: absolute;
+    left: 0;
+    color: #c44;
+    font-weight: 700;
+  }
+
+  ul.positives li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #1a8754;
+    font-weight: 700;
+  }
+
+  a {
+    color: #018CFF;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .logos {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 24px 0 40px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .logos strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #888;
+  }
+
+  .case-study {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+
+  .case-study h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #1a1a1a;
+  }
+
+  .case-study img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .testimonial {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 40px 0;
+  }
+
+  .testimonial img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .qa-block {
+    margin: 32px 0;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+  }
+
+  .qa-block .q {
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .qa-block .a {
+    color: #555;
+    margin-bottom: 16px;
+  }
+
+  .qa-block .a:last-child {
+    margin-bottom: 0;
+  }
+
+  .cta-section {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .cta-section h2 {
+    margin-top: 0;
+  }
+
+  .calendar-wrapper {
+    width: 100%;
+    background: #090909;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 24px;
+  }
+
+  #my-lunacal-inline-meeting {
+    width: 100%;
+    height: 700px;
+    overflow: scroll;
+  }
+
+  .ps {
+    margin-top: 48px;
+    padding: 24px;
+    background: #f0f4f8;
+    border-left: 3px solid #018CFF;
+    border-radius: 4px;
+    font-size: 0.98rem;
+  }
+
+  .ps strong {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .divider {
+    height: 1px;
+    background: #eaeaea;
+    margin: 40px 0;
+    border: none;
+  }
+
+  @media (max-width: 600px) {
+    .container { padding: 48px 20px 80px; }
+    h1 { font-size: 1.9rem; }
+    h2 { font-size: 1.2rem; }
+    .lead { font-size: 1.05rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <h1>I help technology companies book meetings with interested buyers.</h1>
+  <p class="lead">You only pay for qualified meetings that show up.</p>
+
+  <div class="logos">
+    <strong>Meetings booked for partners with VPs and CXOs at</strong>
+    Apple, Netflix, Microsoft, Google, Tesla, JP Morgan, BlackRock, and more.
+  </div>
+
+  <p>We do this with precise, targeted, multi-channel outreach campaigns and signal data.</p>
+
+  <p>I've been partnering with companies to help them build outbound systems since 2019.</p>
+
+  <p>I create the campaigns myself. You can check out some of my work <a href="https://www.youtube.com/@Nate_Taylor_GTM_Systems" target="_blank" rel="noopener">here</a>.</p>
+
+  <p>Because I handle this myself to keep quality high, I can only partner with a very limited number of companies. Only certain companies are a fit.</p>
+
+  <h2>This is NOT for you if you:</h2>
+  <ul class="negatives">
+    <li>Don't need more meetings</li>
+    <li>Don't want to try cold outreach because another agency messed it up before and didn't book anything</li>
+    <li>Have no product-market fit and can't book any meetings yourself</li>
+  </ul>
+
+  <h2>This could be for you if you:</h2>
+  <ul class="positives">
+    <li>Have a proven product</li>
+    <li>Have a large total addressable market</li>
+    <li>Need solid systems to help you book more quality meetings consistently so you can increase your revenue consistently</li>
+  </ul>
+
+  <h2>Pricing</h2>
+  <p>Cost per meeting depends on several factors (like what defines a qualified meeting for you).</p>
+  <p>Generally the range is around $250 to $550 per attended meeting, depending on several factors.</p>
+  <p>If you run an AI Salad making offer and your ideal customers are CEOs of F500 companies, I will have to charge a bit more...</p>
+
+  <h2>Case Studies</h2>
+
+  <div class="case-study">
+    <h3>Scaling Operation: 42 meetings booked in the first week of May</h3>
+    <img src="images/case-study-week1.png" alt="Calendar showing 42 booked meetings for Scaling Operation during the first week of May">
+  </div>
+
+  <div class="case-study">
+    <h3>Scaling Operation: 47 meetings booked in the second week of May</h3>
+    <img src="images/case-study-week2.png" alt="Calendar showing 47 booked meetings for Scaling Operation during the second week of May">
+  </div>
+
+  <div class="testimonial">
+    <img src="images/testimonial.png" alt="Testimonial from Gustav Blicher, Co-Founder at Scaling Operation">
+  </div>
+
+  <hr class="divider">
+
+  <div class="qa-block">
+    <p class="q">Am I the Jesus Christ of booking meetings?</p>
+    <p class="a">No.</p>
+
+    <p class="q">Will I book you 10 bajillion meetings per week?</p>
+    <p class="a">No.</p>
+
+    <p class="q">Can I take a solid offer and build solid outreach systems to consistently get you meetings with good fit, interested buyers?</p>
+    <p class="a">Yes, definitely.</p>
+  </div>
+
+  <div class="cta-section" id="book">
+    <h2>If this is something that could help you reach your revenue goals, book a time to chat:</h2>
+
+    <div class="calendar-wrapper">
+      <!-- Lunacal inline embed code begins -->
+      <div style="width:100%;height:100%;overflow:scroll" id="my-lunacal-inline-meeting"></div>
+      <script type="text/javascript">
+        (function(L,U,N){let p=(a,ar)=>a.q.push(ar),d=L.document;L.Lunacal=L.Lunacal||function(){let lun=L.Lunacal,ar=arguments;if(!lun.loaded){lun.ns={};lun.q=lun.q||[];d.head.appendChild(d.createElement("script")).src=U;lun.loaded=!0}if(ar[0]===N){const api=function(){p(api,arguments)};const ns=ar[1];api.q=api.q||[];if(typeof ns==="string"){lun.ns[ns]=lun.ns[ns]||api;p(lun.ns[ns],ar);p(lun,["initNamespace",ns])}else p(lun,ar);return}p(lun,ar)};if(!L.Cal)L.Cal=L.Lunacal})(window,"https://app.lunacal.ai/embed/embed.js","init");Lunacal("init","meeting",{origin:"https://app.lunacal.ai"});
+        Lunacal.config = Lunacal.config || {};
+        Lunacal.config.forwardQueryParams = true;
+
+        Lunacal.ns.meeting("inline", {
+          elementOrSelector:"#my-lunacal-inline-meeting",
+          config: {"layout":""},
+          calLink: "nate-taylor-zub/meeting",
+        });
+        Lunacal.ns.meeting("preload", { calLink: "nate-taylor-zub/meeting", type: "inline", options: { prerenderIframe: true } });
+        Lunacal.ns.meeting("ui", {"theme":"dark","styles":{"branding":{}},"hideEventTypeDetails":false,"layout":"","cssVarsPerTheme":{"light":{"theme-border":"#1F1F1F","theme-background-primary":"#018CFF","theme-background-secondary":"#33353A","theme-background-card":"#090909","theme-background-base":"#090909","theme-text-primary":"#ffffff","theme-text-secondary":"#ffffff","theme-text-card":"#ffffff","theme-text-base":"#ffffff","theme-rounded-base":"12px","theme-rounded-calendar":"20px","theme-rounded-timeslot":"999px","theme-rounded-day":"999px","theme-rounded-button":"999px","theme-shadow-calendar":"1.5px 8.5px 4px 0px #0000001A","theme-shadow-button":"0px 0px 0px 0px #D1519A88","theme-shadow-timeslot":"0px 0px 0px 0px #000000","theme-font-family":"Outfit"},"dark":{"theme-border":"#1F1F1F","theme-background-primary":"#018CFF","theme-background-secondary":"#33353A","theme-background-card":"#090909","theme-background-base":"#090909","theme-text-primary":"#ffffff","theme-text-secondary":"#ffffff","theme-text-card":"#ffffff","theme-text-base":"#ffffff","theme-rounded-base":"12px","theme-rounded-calendar":"20px","theme-rounded-timeslot":"999px","theme-rounded-day":"999px","theme-rounded-button":"999px","theme-shadow-calendar":"1.5px 8.5px 4px 0px #0000001A","theme-shadow-button":"0px 0px 0px 0px #D1519A88","theme-shadow-timeslot":"0px 0px 0px 0px #000000","theme-font-family":"Outfit"}},"displayedContent":{"image":true,"name":true,"designation":true,"description":true,"eventName":true,"highlightBar":false},"background":{"type":"animated","presetId":"retro-grid"},"stylePreset":"blueshine"});
+      </script>
+      <!-- Lunacal inline embed code ends -->
+    </div>
+  </div>
+
+  <div class="ps">
+    <strong>PS:</strong>
+    If you genuinely just need some help and I can share knowledge or advice that can do that, I would be more than happy to do so, time permitting. If that's the case, please let me know so I can properly fit this into my schedule.
+  </div>
+
+</div>
+
+</body>
+</html>
